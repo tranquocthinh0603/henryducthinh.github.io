@@ -1,3 +1,4 @@
+//<---Date time now--->
 var myVar = setInterval(function() {
     Clock()
 }, 1000);
