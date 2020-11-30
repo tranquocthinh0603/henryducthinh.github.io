@@ -71,7 +71,7 @@ Phần menu
 }
 
 .menu>ul>li>a {
-    padding: 50px 70px;
+    padding: 15px 50px;
     display: inline-block;
     color: rgb(252, 252, 252);
 }
@@ -116,10 +116,4 @@ Phần menu
 .sub-menu li a:hover,
 .sub-menu .current-item a {
     background: rgba(39, 3, 243);
-}
-
-.avatar_index {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
