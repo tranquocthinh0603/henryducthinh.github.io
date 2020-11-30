@@ -67,11 +67,11 @@ Phần menu
     float: right;
     display: inline-block;
     position: relative;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .menu>ul>li>a {
-    padding: 20px 40px;
+    padding: 50px 70px;
     display: inline-block;
     color: rgb(252, 252, 252);
 }
@@ -79,7 +79,7 @@ Phần menu
 .menu>ul>li:hover>a,
 .menu>ul>.current-item>a {
     background: #2e2728;
-    color: rgb(255, 0, 0));
+    color: rgb(255, 0, 0);
 }
 
 
@@ -100,7 +100,7 @@ Phần menu
     opacity: 0;
     transition: opacity linear 0.15s;
     box-shadow: 0px 2px 3px rgb(3, 7, 250);
-    background: #ffffff;
+    background: #ffffffda;
 }
 
 .sub-menu li {
