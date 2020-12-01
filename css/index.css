@@ -1,118 +1,28 @@
-/** CSS Trang chủ */
-
-
-/**
-Phần menu
-*/
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.clearfix:after {
-    display: block;
-    clear: both;
-    list-style-type: none;
-}
-
-.wrapper {
-    color: rgba(238, 214, 214, 0.432)
-}
-
-.menu {
-    width: 100%;
-    margin: 0px auto;
-    background: rgb(69, 77, 5);
-    height: 85px;
-    margin-top: 0px;
-    position: fixed;
-    z-index: 100000;
-    top: 0;
-    right: 0;
-}
-
-.menu li {
-    margin: 0px;
-    list-style: none;
-    font-family: 'Ek Mukta';
-}
-
-.menu a {
-    transition: all linear 0.15s;
-    color: #524d4d;
-    text-decoration: none;
-}
-
-.menu li:hover>a,
-.menu .current-item>a {
-    text-decoration: none;
-    color: #c6ddff;
-}
-
-.menu .arrow {
-    font-size: 15px;
-    line-height: 0%;
-}
-
-.menu>ul>li {
-    float: right;
-    display: inline-block;
-    position: relative;
-    font-size: 18px;
-}
-
-.menu>ul>li>a {
-    padding: 27px 40px;
-    display: inline-block;
-    color: rgb(252, 252, 252);
-}
-
-.menu>ul>li:hover>a,
-.menu>ul>.current-item>a {
-    background: #2e2728;
-    color: rgb(255, 0, 0);
-}
-
-.menu li:hover .sub-menu {
-    z-index: 1;
-    opacity: 1;
-}
-
-.sub-menu {
-    width: 160%;
-    padding: 5px 0px;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity linear 0.15s;
-    box-shadow: 0px 2px 3px rgb(3, 7, 250);
-    background: #ffffffda;
-}
-
-.sub-menu li {
-    display: block;
+.date {
+    width: 500px;
+    height: 20px;
+    background: rgba(119, 47, 47, 0.438);
+    border: 1px solid rgba(3, 253, 253, 0.568);
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
     font-size: 16px;
+    font-family: "Time New";
+    float: center;
 }
 
-.sub-menu li a {
-    padding: 10px 30px;
-    display: block;
+.date :hover {
+    width: 800px;
+    height: 30px;
+    background: rgba(16, 56, 78, 0.966);
+    font-size: large;
+    color: rgba(253, 253, 253, 0.863);
+    border: 3px solid red;
+    border-radius: 11px;
+    text-align: center;
 }
 
-.sub-menu li a:hover,
-.sub-menu .current-item a {
-    background: rgba(39, 3, 243);
-}
-
-.logo-index {
-    position: relative;
-    width: 280px;
-    height: 78;
-    margin-left: 50px;
-    background: rgba(0, 0, 0, 0.192);
-    border: 1px hidden rgba(0, 0, 0, 0.192);
-    border-radius: 20px;
+footer {
+    width: 100%;
+    height: 100px;
 }
