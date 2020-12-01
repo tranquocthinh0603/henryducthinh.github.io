@@ -61,6 +61,12 @@ input {
     color: blue;
 }
 
+.radio-gt {
+    left: 35px;
+    color: rgba(0, 0, 0);
+    padding: 5px;
+}
+
 button[id=submit-form] {
     background-color: #434e11;
     border: 2px solid #000000;
@@ -95,6 +101,7 @@ body {
     width: 100%;
     float: center;
     color: #11171b;
+    padding-top: 35px;
 }
 
 footer {
@@ -108,7 +115,7 @@ footer {
 
 .from_ghost {
     background-color: #d4c48f;
-    border: 25px solid rgba(230, 222, 118, 0.822);
+    border: 25px solid rgb(146, 145, 132);
     border-radius: 20px;
 }
 
@@ -122,7 +129,7 @@ footer {
 }
 
 .table_text {
-    width: 35%;
+    width: 62%;
     height: 400px;
     background-color: rgb(31, 95, 68);
     float: right;
@@ -130,5 +137,11 @@ footer {
     border-radius: 85px;
     text-align: center;
     font-size: 20px;
-    color: #680b0b;
+    color: rgb(41, 210, 240);
+    top: auto;
+    left: auto;
+}
+
+.table-title {
+    color: rgb(255, 0, 0);
 }
