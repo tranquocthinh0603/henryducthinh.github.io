@@ -38,6 +38,7 @@ input[id=address] {
     width: 97%;
     height: 40px;
     border: 5px ridge rgb(107, 100, 8);
+    row-gap: 5px;
 }
 
 button[id=submit-form]:hover {
