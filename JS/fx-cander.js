@@ -5,7 +5,7 @@ var createCalendarWidget = function(a) {
             k = parseInt(a.mode) || 1,
             d = a.dateformat,
             g, e = "";
-        b.lang = "vi";
+        b.lang = "en";
         b.containerId = a.id || "economicCalendarWidget";
         if (a = a.lang || document.documentElement.lang) a = a.replace(/\s/g, "").substring(0, 2).toLowerCase(), -1 !== "ru,en,zh,es,pt,ja,de,tr".indexOf(a) && (b.lang = a);
         e = window.location.hostname;
