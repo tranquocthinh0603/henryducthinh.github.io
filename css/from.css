@@ -105,8 +105,8 @@ button[id=submit-form] {
 }
 
 body {
-    width: 100%;
-    height: 1000px;
+    width: auto;
+    height: auto;
     float: center;
     color: #11171b;
     padding-top: 35px;
