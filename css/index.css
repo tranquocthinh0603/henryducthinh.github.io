@@ -1,3 +1,14 @@
+/*
+Thuộc tính phần tử trong index
+@ Tác giả : Trần Quốc Thịnh
+@ Số điện thoại : 0925850617
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .date {
     width: 500px;
     height: 20px;
@@ -6,23 +17,153 @@
     border-radius: 12px;
     text-align: center;
     font-weight: bold;
-    font-size: 16px;
-    font-family: "Time New";
+    font-size: 18px;
+    font-family: "Time New Roman";
     float: center;
 }
 
-.date :hover {
+.date:hover {
     width: 800px;
     height: 30px;
     background: rgba(16, 56, 78, 0.966);
-    font-size: large;
+    font-size: 25px;
     color: rgba(253, 253, 253, 0.863);
     border: 3px solid red;
     border-radius: 11px;
     text-align: center;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.brokers {
+    width: 200px;
+    border-top: 5px solid rgb(177, 119, 11);
+}
+
+.cale {
+    width: auto;
+    height: 300px;
+    float: center;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 55px;
+}
+
+.broker-centen {
+    width: 570px;
+    text-align: left;
+    color: rgba(0, 0, 0);
+    font-size: 25px;
+}
+
+.pictre-centen {
+    width: 800px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+    opacity: 2;
+}
+
+.centen-delp {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(51, 45, 45);
+    color: rgb(16, 163, 221);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-family: "Oswald";
+}
+
+.title-txslfg-gdd {
+    color: rgb(255, 0, 0);
+    font-family: "Time New Roman";
+}
+
+table {
+    border-spacing: 15px;
+}
+
+.fbs-banner,
+.exness-banner,
+.xm-banner {
+    width: 250px;
+    height: auto;
+    background-color: rgba(146, 144, 144, 0.836);
+}
+
+.FBS-logo,
+.XM-logo,
+.Exness-logo {
+    border: 1px solid rgb(255, 238, 0.5);
+    display: inline-block;
+    height: 80px;
+}
+
+.FBS-logo {
+    width: 100px;
+}
+
+.Exness-logo {
+    width: 150px;
+}
+
+.XM-logo {
+    width: 150px;
+}
+
+.fbs-html {
+    height: 97px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.tex-lolo,
+.boder-texl {
+    width: auto;
+    height: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 85px;
+    margin-right: 85px;
+    background-color: rgba(36, 159, 163, 0.774);
+    border: 1px solid rgb(176, 250, 126);
+    border-radius: 35px;
+}
+
+.tex-bill,
+.tex-cfxk {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    vertical-align: left;
+    text-align: justify;
+    font-size: 18px;
+    display: block;
+}
+
+.centen-fxls,
+.centen-lksd {
+    width: 250px;
+    height: auto;
+    color: rgba(255, 0, 0, 0.925);
+    text-align: left;
+    margin-left: 25px;
+    border: 1px hidden;
+    border-radius: 15px;
+    background-color: rgba(114, 196, 182, 0.911);
 }
 
 footer {
     width: 100%;
     height: 100px;
+}
+
+.index-body {
+    background-color: rgb(197, 197, 197);
 }
