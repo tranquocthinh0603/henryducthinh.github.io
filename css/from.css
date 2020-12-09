@@ -116,8 +116,8 @@ footer {
     font-family: "Times New Roman";
     color: #dfdfdf;
     font-size: 20;
-    background: #000000;
-    border: 25px solid #000000;
+    background: rgba(0, 0, 0.5);
+    border: 25px solid rgba(0, 0, 0.5);
     border-top: 15px solid rgb(75, 75, 3.5);
     border-bottom: 15px solid rgb(75, 75, 3.5);
 }
