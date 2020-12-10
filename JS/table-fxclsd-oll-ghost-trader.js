@@ -41,7 +41,7 @@ function readData() {
             }
         }
     }
-    $('#data-fx').after(strData);
+    $('#datafx').after(strData);
 }
 $(document).ready(function() {
     readData();
