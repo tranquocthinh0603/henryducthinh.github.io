@@ -34,7 +34,7 @@ function readData() {
             } else if (cell["col"] == "2") {
                 strData += '<td class="col-md-1">' + cell["$t"] + '</td>';
             } else if (cell["col"] == "3") {
-                strData += '<td class="col-md-1">' + cell["$t"] + '"></td>';
+                strData += '<td class="col-md-1">' + cell["$t"] + '></td>';
             } else if (cell["col"] == "4") {
                 strData += '<td class="col-md-2">' + cell["$t"] + '</td>';
                 strData += '</tr>';
