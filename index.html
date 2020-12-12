@@ -19,12 +19,15 @@
     <meta name="description" content="Dịch vụ tài chính hỗ trợ lệnh giao dịch forex, tất cả sản phẩm thị trường tài chính quốc tế,XAU/USD,GPB/USD...,Thương vụ tiềm năng trong tháng">
     <script src="https://henryducthinh.github.io/JS/date-time-now.js"></script>
     <script src="https://henryducthinh.github.io/JS/fx-cander.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://henryducthinh.github.io/JS/table-fxclsd-oll-ghost-trader.js"></script>
     <script type="text/javascript">
         new economicCalendar({
             width: "100%",
             height: "100%",
             mode: 1,
-            lang: "vi"
+            lang: "en"
         });
     </script>
     <script data-ad-client="ca-pub-6248653161632756" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -79,23 +82,21 @@
         <br>
     </div>
     <div class="table-fxcl">
-        <h4>Nhận định xu hướng thị trường :</h4>
-        <table>
-            <tr>
-                <th></th>
-            </tr>
+        <h4 class="jx-centen">Nhận định xu hướng thị trường :</h4>
+        <table class="table-cl-jx-fx">
+            <tbody id="fx-cl-table-md-lt-rate-ghost-trader"></tbody>
         </table>
         <div class="TRT">
             <span id="text-tlrl">
                    <p><b>Tuyên bố từ chối trách nhiệm:</b></p>
-                   <p>Những tín hiệu chỉ mang tính chất tham khảo, chúng tôi hoàn toàn không chấp nhận những cáo buộc thâm hụt tài chính</p>
+                   <p>Những tín hiệu chỉ mang tính chất tham khảo, chúng tôi hoàn toàn không chấp nhận những cáo buộc thâm hụt tài chính, của một cá nhân hay một tổ chức nào.</p>
                    <p>Nhà đầu tư hoàn toàn chịu trách nhiệm tất cả lần giao dịch đầu tư</p>
                 </span>
         </div>
     </div>
     <div class="cale">
         <div class="centen-canlen">
-            <h4>Lịch kinh tế:</h4><br>
+            <h4 class="jx-centen">Lịch kinh tế: Sự kiện tiền tệ các quốc gia gia trong ngày</h4>
         </div>
         <div id="economicCalendarWidget" class="calendar"></div>
     </div>
@@ -192,7 +193,7 @@
             © 2020 Dịch vụ tài chính
          </b></p>
     </footer>
-
+    <script src="https://spreadsheets.google.com/feeds/cells/1xMtKFGPaGoanvy-Ps1G5dGGptgLPPmZjxZm5oqHGjuY/1/public/values?alt=json-in-script&callback=doData"></script>
 </body>
 
 </html>
