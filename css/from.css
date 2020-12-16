@@ -1,51 +1,93 @@
-/** Css form trang đăng kí nhận chiến lược */
+/** 
+* Css form trang đăng kí nhận chiến lược
+* Auther : Trần Quốc Thịnh - 0925850617
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 .conten {
-    width: 60%;
+    width: 80%;
     color: blue;
-    font: Time New 20px;
-    border: 1px solid blue;
+    font: 20px;
+    border: 10px solid blue;
+    border-top: 1px solid blue;
+    border-left: 5px solid blue;
+    border-bottom: 1px solid blue;
+    border-right: 5px solid blue;
     border-radius: 15px;
-    background-color: rgb(204, 195, 195);
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.form_cl {
-    width: 35%;
-    border: 25px solid rgb(38, 82, 3);
-    background: rgb(38, 82, 3);
+.conten-title,
+.conten-sub {
+    margin-top: 15px;
     margin-left: 35px;
-    display: block;
 }
 
-input[id=name] {
-    width: 90%;
-    border: 5px ridge rgb(107, 100, 8);
-    height: 20px;
+.conten-title {
+    color: rgb(11, 36, 73);
+    font-size: 36px;
+    font-family: "Poller One";
 }
 
-input[id=number_phone] {
-    width: 43%;
-    float: right;
-    border: 5px ridge rgb(107, 100, 8);
+.conten-sub {
+    color: rgb(0, 0, 0.5);
+    font-size: 16px;
+}
+
+.form_cl {
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(38, 82, 3);
+    background: rgb(38, 82, 3);
 }
 
 input[id=email_address] {
-    width: 50%;
-    border: 5px ridge rgb(107, 100, 8);
+    float: left;
+    margin-left: 25px;
 }
 
-input[id=address] {
-    width: 97%;
-    height: 40px;
-    border: 5px ridge rgb(107, 100, 8);
+input[id=number_phone],
+[id=email_address] {
+    width: 220px;
+    height: 25px;
+    margin: 20px auto;
+    border: 1px solid rgb(43, 252, 1);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+input[id=address],
+[id=name] {
+    width: 85%;
+    height: 2em;
+    border: 1px solid rgb(43, 252, 1);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: auto;
+}
+
+.p-col2 {
+    margin: 25px 15px 15px 15px;
 }
 
 button[id=submit-form]:hover {
-    color: #0cd4e29c;
+    color: rgb(253, 6, 6);
     background-color: rgb(73, 29, 29);
     border-color: rgb(255, 255, 255);
     background-position: 0.75em bottom;
@@ -69,17 +111,24 @@ input {
     left: 35px;
     color: rgba(0, 0, 0);
     padding-top: 5px;
+    margin-left: 15px;
 }
 
 button[id=submit-form] {
     background-color: #434e11;
     border: 2px solid #000000;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-radius: 20px;
     color: white;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 35px;
 }
 
 .date {
@@ -92,46 +141,78 @@ button[id=submit-form] {
     display: block;
 }
 
-.avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.img_table {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body {
+.col-md-layot1 {
     width: auto;
     height: auto;
-    float: center;
-    color: #11171b;
-    padding-top: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.logo-form-avatar {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-family: "Pattaya";
+    color: rgb(255, 0, 0.5);
+    font-size: 30px;
+    border: 2px solid rgb(125, 255, 3);
+    border-right: 6px solid rgb(209, 255, 3);
+    border-left: 6px solid rgb(209, 255, 3);
+    border-radius: 25px;
 }
 
 footer {
+    width: auto;
+    height: auto;
+}
+
+.footer-skill {
     font-family: "Times New Roman";
     color: #dfdfdf;
-    font-size: 20;
-    background: rgba(0, 0, 0.5);
+    font-size: 16px;
+    background: rgb(0, 0, 0);
     border: 25px solid rgba(0, 0, 0.5);
-    border-top: 15px solid rgb(75, 75, 3.5);
-    border-bottom: 15px solid rgb(75, 75, 3.5);
+}
+
+.footer_live {
+    margin-bottom: 25px;
+}
+
+.tb-footer {
+    border-spacing: 15px;
+}
+
+.from_ghost,
+.table_text {
+    height: auto;
+}
+
+.table_text {
+    width: 47%;
+    height: auto;
+    float: right;
+    color: rgb(41, 210, 240);
+    border: 2px solid rgb(128, 193, 204);
+    border-right: 6px solid rgb(128, 193, 204);
+    border-left: 6px solid rgb(128, 193, 204);
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .from_ghost {
-    width: auto;
-    height: auto;
-    background-image: url("https://drive.google.com/uc?id=1GqKyPpe_uzUJCaJNyz5StV62U1uCII1O");
-    border: 25px solid rgb(255, 255, 255);
-    float: center;
-    border-top: 15px solid rgb(75, 75, 3.5);
-    border-bottom: 15px solid rgb(75, 75, 3.5);
-    border-right: 15px solid rgb(75, 75, 3.5);
-    border-left: 15px solid rgb(75, 75, 3.5);
+    width: 40%;
+    margin-left: 25px;
 }
 
 .sumit {
@@ -140,35 +221,38 @@ footer {
 }
 
 .full_form {
-    background-color: rgb(255, 255, 255);
-}
-
-.table_text {
     width: auto;
     height: auto;
-    background-color: rgb(0, 0, 0.5);
-    float: right;
-    border: 25px solid rgb(0, 0, 0.5);
-    border-radius: 25px;
-    text-align: left;
-    font-size: 20px;
-    color: rgb(41, 210, 240);
-    top: auto;
-    left: auto;
+    background-color: rgb(197, 197, 197);
 }
 
 .table-title {
-    width: auto;
+    width: 95%;
+    height: auto;
+    font-size: 22px;
     color: rgb(255, 0, 0);
-    border: 1px solid rgb(252, 250, 250);
+    border: 3px solid rgb(252, 250, 250);
     border-radius: 25px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: block;
 }
 
+.text-col-md1 {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
 .FBS {
+    margin-top: 15px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
