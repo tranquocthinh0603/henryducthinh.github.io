@@ -87,6 +87,12 @@
     font-size: 20px;
 }
 
+.centen-x {
+    font-size: 15px;
+    color: rgb(0, 0, 0.5);
+    /* Đây là thuộc tính chữ phân trang*/
+}
+
 .list-md {
     margin-left: 2%;
     margin-right: 2%;
