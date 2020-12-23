@@ -107,6 +107,15 @@ input {
     color: blue;
 }
 
+select[id=option-md-tl] {
+    width: 50%;
+    height: auto;
+    border: 1px solid rgb(4, 0, 252);
+    margin-left: 25px;
+    color: rgb(250, 0, 0);
+    font-size: 18px;
+}
+
 .radio-gt {
     left: 35px;
     color: rgba(0, 0, 0);
