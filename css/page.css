@@ -74,13 +74,14 @@
     border-radius: 6%;
     margin: 3% 3% 3% 3%;
     display: block;
+    text-align: justify;
 }
 
 .md-text-box-2 {
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: block;
     text-align: justify;
     color: rgb(51, 0, 0);
@@ -95,11 +96,88 @@
     /* Đây là thuộc tính chữ phân trang*/
 }
 
+.centen-xy-loili {
+    color: rgb(0, 0, 0.5);
+}
+
 .list-md {
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+}
+
+
+/* Form pages*/
+
+.tl-fox-boz {
+    width: auto;
+    height: auto
+}
+
+.tl-centen-text-form {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    display: block;
+    border: 1px hidden;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.tl-form-warmas {
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+input[id=name-tl],
+p[id=tl-md-p] {
+    float: left;
+}
+
+input[id=name-tl],
+[id=phone-tl] {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin-top: 0.5%;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 20%;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+textarea[id=nd-flt] {
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 7px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    resize: none;
+    display: block;
+    margin-left: 3%;
+    padding: 15px 15px 15px 15px;
+}
+
+input[id=send-tl] {
+    width: 70px;
+    height: 30px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 0.5%;
+    display: block;
+}
+
+.form-tlx-mdx {
+    width: 90%;
+    height: auto;
 }
 
 .fbs-html {
