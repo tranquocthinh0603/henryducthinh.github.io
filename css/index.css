@@ -81,7 +81,7 @@
     margin-left: 75px;
     margin-right: 75px;
     border: 1px solid rgb(142, 248, 2);
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .row:hover {
