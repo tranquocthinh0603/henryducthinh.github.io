@@ -9,4 +9,4 @@ function reFresh() {
 
 }
 
-window.setInterval("reFresh()", ((Math.random() * 800000) + 80000));
+window.setInterval("reFresh()", ((Math.random() * 9000000) + 80000));
