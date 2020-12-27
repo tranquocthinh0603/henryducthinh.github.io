@@ -120,6 +120,30 @@
     display: block;
 }
 
+.nw-lb-mr {
+    background-color: rgb(224, 224, 224);
+    font-size: 18px;
+}
+
+.nw-lb-mr:hover {
+    background-color: rgba(134, 134, 134, 0.5);
+}
+
+.vss89b {
+    font-size: 22px;
+    color: rgb(0, 0, 0.5);
+}
+
+.fbs-acc-ib {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+.link-hidden-ac {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
 .cp-md {
     margin: auto;
     display: block;
@@ -130,6 +154,76 @@
     font-size: 22px;
     margin: 0.5% 0.5% 0.5% 0.5%;
     display: block;
+}
+
+.tl-fox-boz {
+    width: auto;
+    height: auto
+}
+
+.tl-centen-text-form {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    display: block;
+    border: 1px hidden;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.tl-form-warmas {
+    width: 90%;
+    height: auto;
+    display: block;
+}
+
+input[id=name-tl],
+p[id=tl-md-p] {
+    float: left;
+}
+
+input[id=name-tl],
+[id=phone-tl] {
+    width: 200px;
+    height: 35px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin-top: 0.5%;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 20%;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+textarea[id=nd-flt] {
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 7px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    resize: none;
+    display: block;
+    margin-left: 3%;
+    padding: 15px 15px 15px 15px;
+}
+
+input[id=send-tl] {
+    width: 70px;
+    height: 30px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 3%;
+    margin-right: 0.5%;
+    display: block;
+}
+
+.form-tlx-mdx {
+    width: 90%;
+    height: auto;
 }
 
 .fbs-html {
