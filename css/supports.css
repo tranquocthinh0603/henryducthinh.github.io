@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conten-title,
+.conten-sub {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.conten-title {
+    color: rgb(119, 8, 8.5);
+    font-size: 28px;
+    font-family: 'Patrick Hand';
+}
+
+.conten-sub {
+    color: rgb(0, 0, 0.5);
+    font-size: 16px;
+    font-family: 'Srisakdi';
+}
+
+.sp-conten-pst {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
+}
+
+.logo-sp {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    border: 1px hidden;
+    border-radius: 30px;
+    float: left;
+}
+
+.sp-title-centen {
+    width: 35%;
+    height: auto;
+    display: block;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-family: 'Srisakdi';
+    margin: 1% 1% 1% 1%;
+    border: 1px solid rgb(255, 0, 0);
+    border-left: 3px solid rgb(255, 0, 0);
+    border-right: 3px solid rgb(255, 0, 0);
+    border-radius: 7px;
+}
+
+.sp-body-css {
+    width: 95%;
+    height: auto;
+    margin: 2% 2% 2% 2%;
+    padding: 1.5%;
+}
+
+.sp-tb-week {
+    width: 95%;
+    height: 80px;
+    max-height: 120px;
+    overflow: scroll;
+    text-align: center;
+    font-size: auto;
+    font-family: 'Oswald';
+    position: -webkit-sticky;
+    position: sticky;
+    border-spacing: 0px;
+    color: rgb(0, 0, 0.5);
+    padding: 1%;
+    border: 2px solid rgb(179, 255, 0.5);
+    border-radius: 7px;
+    border-left: 5px solid rgb(179, 255, 0.5);
+    border-right: 5px solid rgb(179, 255, 0.5);
+}
+
+.row-sp:hover {
+    background-color: rgba(134, 134, 134, 0.5);
+    color: rgb(0, 47, 255);
+    text-align: left;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sp-fx-tb-cl:hover {
+    color: rgb(255, 0, 0);
+}
+
+.button-table {
+    border-spacing: 15px;
+    display: block;
+    margin: 15px auto;
+    margin-left: 3%;
+}
+
+.button-table a {
+    text-decoration: none;
+    color: rgb(252, 252, 253);
+}
+
+.coppy-sp-md-link-lt {
+    width: auto;
+    height: auto;
+}
+
+.sp-bl-md {
+    width: 90%;
+    height: auto;
+    border: 2px double rgb(0, 0, 0.5);
+    border-left: 3px double rgb(0, 0, 0.5);
+    border-right: 3px double rgb(0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 2% 2% 2% 2%;
+}
+
+.sub-md {
+    color: red;
+}
+
+.sp-md {
+    font-size: 20px;
+    color: rgb(7, 105, 59);
+    font-family: 'Patrick Hand';
+    text-align: justify;
+}
+
+.frl-link {
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+footer {
+    width: auto;
+    height: auto;
+    font-family: "Times New Roman";
+    color: #dfdfdf;
+    font-size: 20px;
+    background: rgba(0, 0, 0.5);
+    border: 25px solid rgba(0, 0, 0.5);
+}
