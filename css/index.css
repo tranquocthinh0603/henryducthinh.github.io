@@ -1,9 +1,6 @@
 /*
-
-@ Auther: Ghost Trader-Index
+@ Author: Ghost Trader-Index
 @ Phone Number : 0925850617
-
-
 */
 
 * {
@@ -178,6 +175,7 @@
     margin-bottom: 25px;
     margin-right: 25px;
     display: block;
+    font-family: 'Oswald';
 }
 
 .conten-xcxcolloo {
@@ -191,10 +189,9 @@
 }
 
 .title-txslfg-gdd {
-    width: 90%;
+    width: 95%;
     height: 250px;
     float: center;
-    font-family: "Oswald";
     border: 6px double rgb(165, 253, 2);
     border-radius: 80px;
     margin-top: 25px;
