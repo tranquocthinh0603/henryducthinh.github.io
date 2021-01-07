@@ -165,7 +165,7 @@
     background-color: rgb(51, 45, 45);
 }
 
-.list-supvicer {
+.list-supvicer li {
     color: rgb(255, 255, 255);
     list-style-type: square;
     text-align: left;
@@ -202,19 +202,6 @@
     border-left: 15px solid rgb(165, 253, 2);
     border-right: 15px solid rgb(165, 253, 2);
     background-color: rgb(51, 45, 45);
-}
-
-.scvier-title-conten {
-    width: auto;
-    height: auto;
-    float: left;
-}
-
-.Wral-list {
-    width: auto;
-    height: auto;
-    float: right;
-    display: block;
 }
 
 .tb-footer {
