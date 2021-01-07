@@ -165,21 +165,18 @@
     background-color: rgb(51, 45, 45);
 }
 
-.list-supvicer li {
+.list-supvicer {
     color: rgb(255, 255, 255);
     list-style-type: square;
     text-align: left;
     font-size: 20px;
-    display: block;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
-    display: block;
     font-family: 'Oswald';
 }
 
 .conten-xcxcolloo {
-    display: block;
     margin-top: 85px;
     margin-bottom: 85px;
     margin-left: 85px;
@@ -192,17 +189,15 @@
     width: 95%;
     height: 250px;
     float: center;
-    border: 6px double rgb(165, 253, 2);
+    border: 6px solid rgb(165, 253, 2);
     border-radius: 80px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    border-top: 4px solid rgb(165, 253, 2);
-    border-bottom: 4px solid rgb(165, 253, 2);
     border-left: 15px solid rgb(165, 253, 2);
     border-right: 15px solid rgb(165, 253, 2);
     background-color: rgb(51, 45, 45);
-    border-spacing: 2px;
+    display: block;
 }
 
 .tb-footer {
