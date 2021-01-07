@@ -202,6 +202,7 @@
     border-left: 15px solid rgb(165, 253, 2);
     border-right: 15px solid rgb(165, 253, 2);
     background-color: rgb(51, 45, 45);
+    border-spacing: 2px;
 }
 
 .tb-footer {
