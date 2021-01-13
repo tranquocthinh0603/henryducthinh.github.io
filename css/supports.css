@@ -32,7 +32,9 @@
 .date {
     font-weight: bold;
     font-size: 19px;
-    border: 1px solid rgb(0, 60, 255)
+    border: 1px solid rgb(0, 60, 255);
+    width: 500px;
+    height: 20px;
 }
 
 .logo-sp {
