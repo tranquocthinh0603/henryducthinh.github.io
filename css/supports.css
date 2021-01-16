@@ -38,6 +38,7 @@
     margin: auto;
     display: block;
     text-align: center;
+    color: blue;
 }
 
 .logo-sp {
@@ -85,10 +86,10 @@
     border-spacing: 0px;
     color: rgb(0, 0, 0.5);
     padding: 1%;
-    border: 2px solid rgb(179, 255, 0.5);
-    border-radius: 7px;
-    border-left: 5px solid rgb(179, 255, 0.5);
-    border-right: 5px solid rgb(179, 255, 0.5);
+    border: 1px solid rgb(52, 255, 1);
+    border-radius: 10px;
+    border-left: 1px solid rgb(179, 255, 0.5);
+    border-right: 1px solid rgb(179, 255, 0.5);
 }
 
 .row-sp:hover {
