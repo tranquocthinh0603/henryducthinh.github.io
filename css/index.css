@@ -53,37 +53,26 @@
     transition: all 0.3s ease;
 }
 
-.table-fxcl {
+.jx-centen {
     width: auto;
     height: auto;
-    float: center;
-    display: block;
-}
-
-.jx-centen {
-    color: rgb(20, 4, 255);
+    color: rgb(8, 5, 189);
     font-size: 20px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    margin-left: 85px;
-    margin-right: 85px;
+    margin-left: 25%;
     text-align: left;
+    padding: 20px 20px 20px;
 }
 
 .table-cl-jx-fx {
-    width: 90%;
+    width: 600px;
     height: auto;
     border-spacing: 0px;
     background-color: rgb(255, 255, 255);
-    float: center;
-    margin-left: 75px;
-    margin-right: 75px;
     border: 1px solid rgb(142, 248, 2);
     border-radius: 10px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
+    padding: 2% 2% 2%;
+    margin: auto;
+    display: block;
 }
 
 .row:hover {
@@ -109,10 +98,8 @@
     max-height: 100px;
     background-color: rgb(250, 248, 248);
     overflow: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin: 25px auto;
+    display: block;
     padding: 10px 15px 12px 15px;
 }
 
@@ -124,12 +111,10 @@
 }
 
 .cale {
-    width: auto;
-    height: 500px;
-    float: center;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-bottom: 55px;
+    width: 900px;
+    height: 700px;
+    display: block;
+    margin: 60px auto;
 }
 
 .broker-centen {
@@ -150,13 +135,14 @@
 }
 
 .pictre-centen {
-    width: 800px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 900px;
+    height: 700px;
     opacity: 1;
     display: block;
-    margin-top: 25px;
+    margin: 10px auto;
+    padding: 10px 10px 10px;
+    border: 1px hidden;
+    border-radius: 25px;
 }
 
 .centen-delp {
@@ -179,7 +165,7 @@
     margin: 85px auto;
     text-align: left;
     color: rgb(255, 0, 0);
-    font-size: 25px;
+    font-size: 20px;
     display: block;
 }
 
@@ -189,7 +175,7 @@
     float: center;
     border: 6px solid rgb(165, 253, 2);
     border-radius: 80px;
-    margin: 20px auto;
+    margin: auto;
     border-left: 15px solid rgb(165, 253, 2);
     border-right: 15px solid rgb(165, 253, 2);
     background-color: rgb(51, 45, 45);
@@ -239,21 +225,24 @@
     display: block;
 }
 
-.tex-lolo,
-.boder-texl {
+.table-1f {
     width: auto;
-    height: 160px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 85px;
-    margin-right: 85px;
+    height: auto;
+    display: block;
+    text-align: justify;
+    font-size: 18px;
+    margin: auto;
+    padding: 25px 25px 25px;
     background-color: rgba(36, 159, 163, 0.774);
     border: 1px solid rgb(176, 250, 126);
     border-radius: 35px;
 }
 
-.tex-bill,
-.tex-cfxk {
+.c1 {
+    padding: 20px 20px 20px;
+}
+
+.tex-bill {
     margin-top: 25px;
     margin-bottom: 15px;
     margin-left: 25px;
@@ -263,13 +252,13 @@
     display: block;
 }
 
-.centen-fxls,
-.centen-lksd {
+.centen-fxls {
     width: auto;
     height: auto;
     color: rgba(255, 0, 0, 0.925);
     text-align: left;
-    margin-left: 85px;
+    margin-left: 40px;
+    padding: 20px 20px 20px;
     font-size: 25px;
 }
 
