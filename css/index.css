@@ -64,8 +64,9 @@
 }
 
 .table-cl-jx-fx {
-    width: 600px;
+    width: 950px;
     height: auto;
+    font-size: 20px;
     border-spacing: 0px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(142, 248, 2);
@@ -81,9 +82,8 @@
 }
 
 .col-md-1 {
-    width: 95px;
+    width: 150px;
     height: auto;
-    color: auto;
     text-align: center;
 }
 
@@ -155,7 +155,6 @@
     color: rgb(255, 255, 255);
     list-style-type: square;
     text-align: left;
-    font-size: 20px;
     margin: auto;
     font-family: 'Oswald';
     display: block;
@@ -163,25 +162,25 @@
 
 .conten-xcxcolloo {
     margin: 85px auto;
-    text-align: left;
+    text-align: center;
     color: rgb(255, 0, 0);
-    font-size: 20px;
     display: block;
 }
 
 .title-txslfg-gdd {
     width: 90%;
     height: auto;
+    font-size: 20px;
     float: center;
     border: 6px solid rgb(165, 253, 2);
     border-radius: 80px;
-    margin: auto;
+    margin: 10px auto;
     border-left: 15px solid rgb(165, 253, 2);
     border-right: 15px solid rgb(165, 253, 2);
     background-color: rgb(51, 45, 45);
     display: block;
     border-spacing: 40px;
-    padding: 20px auto;
+    padding: 20px 20px 20px;
 }
 
 .tb-footer {
@@ -218,8 +217,8 @@
 }
 
 .fbs-html {
-    height: 97px;
-    width: 800px;
+    height: 110px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
     display: block;
