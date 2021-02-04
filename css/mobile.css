@@ -369,13 +369,13 @@
         display: block;
     }
     table.table-cl-jx-fx {
-        width: 85%;
+        width: 85px;
         font-size: 9px;
         margin: 5px auto;
         display: block;
     }
     td.col-md-1 {
-        width: auto;
+        width: 50px;
         height: auto;
         text-align: center;
     }
