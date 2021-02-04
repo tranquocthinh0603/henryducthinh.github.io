@@ -25,7 +25,7 @@
     font-size: 16px;
 }
 
-.date-index {
+.date {
     width: 500px;
     height: 20px;
     background: rgba(119, 47, 47, 0.438);
@@ -39,7 +39,7 @@
     margin-top: 10px;
 }
 
-.date-index:hover {
+.date:hover {
     width: 800px;
     height: 30px;
     background: rgba(16, 56, 78, 0.966);
