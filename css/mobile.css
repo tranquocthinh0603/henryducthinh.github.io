@@ -220,6 +220,11 @@
         width: 450px;
         font-size: 14px;
     }
+    .col-md-1 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px) {
