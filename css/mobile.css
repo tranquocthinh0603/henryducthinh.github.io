@@ -384,3 +384,13 @@
         font-size: 9px;
     }
 }
+
+@media screen and (max-width: 80px) {
+    img.pictre-centen {
+        width: 70px;
+        height: 65px;
+        margin: auto;
+        display: block;
+        padding: 5px 5px 5px;
+    }
+}
