@@ -385,7 +385,7 @@
     }
 }
 
-@media screen and (max-width: 80px) {
+@media screen and (max-width: 50px) {
     img.pictre-centen {
         width: 70px;
         height: 65px;
