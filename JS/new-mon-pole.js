@@ -2,7 +2,7 @@ function sendEmail() {
     Email.send({
         Host: "smtp.gmail.com",
         Username: "ghost.trader.index@gmail.com",
-        Password: "eekvaiszketbnojw",
+        Password: "vriyiwlfhsievdhq",
         To: "ghost.trader.index@gmail.com",
         From: "ghost.trader.index@gmail.com",
         Subject: "Thông tin đăng kí hỗ trợ mới từ DICH VU TAI CHINH",
