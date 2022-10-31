@@ -8,6 +8,6 @@ function sendEmail() {
         Subject: "Thông tin đăng kí hỗ trợ mới từ DICH VU TAI CHINH",
         Body: "Tên: " + document.getElementById("name-tl").value + "   " + "Số điện thoại: " + document.getElementById("phone-tl").value + "    " + "Nội dung: " + document.getElementById("nd-flt").value,
     }).then(function(message) {
-        alert("Đã gửi thành công!!")
+        alert("Đã gửi thành công!")
     });
 }
